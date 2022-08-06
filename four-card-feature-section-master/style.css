@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+font-family: 'Poppins', sans-serif;
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    font-size: 15px;
+
+}
+.four-card{
+    max-width: 1440px;
+}
+.top{
+    margin-left: 250px;
+    padding-bottom: 30px;
+}
+.top h1{
+    margin-left: 60px;
+    
+}
+.top p{
+    color: gray;
+    
+}
+.a{
+    
+    font-weight: 200;
+    color: grey;   
+}
+.b{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.c{
+    margin-left: 75px; 
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: right;
+    
+    
+}
+.sup{
+    
+    margin-top: 100px;
+    text-align: left;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    background-color: white;
+    padding: 25px;
+    font-size: small;
+    border-radius: 6px 6px;  
+    margin-right: 25px;
+    margin-bottom: 140px;
+    box-shadow: 10px;
+}
+.sup h3{
+    margin-bottom: 8px;
+}
+.sup img{
+    float: right;
+    margin-top: 35px;
+}
+.sup p{
+    color: gray;
+}
+.mid{
+    margin-right: 25px;
+    text-align: right;
+}
+.build{
+    margin-bottom: 15px;
+    text-align: left;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    background-color: white;
+    padding: 25px;
+    font-size: small;
+    border-radius: 6px 6px;
+    padding-bottom: 85px;
+    box-shadow: 10px;
+}
+.build h3{
+    margin-bottom: 8px;
+}
+
+
+.build img{
+    float: right;
+}
+.build p{
+    color: gray;
+}
+.d{
+    margin-bottom: 25px;
+}
+.kar{
+    margin-top: 10px;
+    text-align: left;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    background-color: white;
+    padding: 25px;
+    font-size: small;
+    border-radius: 6px 6px;
+    padding-bottom: 85px;
+    box-shadow: 10px;
+}
+.kar h3{
+    margin-bottom: 8px;
+}
+
+
+.kar img{
+    float: right;
+}
+.kar p{
+    color: gray;
+}
+.e{
+    margin-bottom: 25px;
+}
+
+.calc{
+    margin: 5px;
+    
+    margin-top: 100px;
+    text-align: left;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    background-color: white;
+    padding: 25px;
+    font-size: small;
+    border-radius: 6px 6px;  
+    margin-bottom: 130px;
+    box-shadow: 10px;
+    
+}
+.calc h3{
+    margin-bottom: 8px;
+}
+.calc img{
+    float: right;
+    margin-top: 32px;
+}
+.calc p{
+    color: gray;
+}
